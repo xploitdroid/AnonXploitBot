@@ -10,8 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🤖 My Name :</b> <a href='https://t.me/AnonXploitBot'>File Sharing Bot</a> \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>📢 Channel :</b> <a href='https://t.me/XploitBots'>Xploitdroid Bots</a> \n<b>🧑‍💻 Developer :</b> <a href='tg://user?id={OWNER_ID}'>Ankit Developer</a>",
-            disable_web_page_preview = True,
+            text = f"<b>𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚕𝚢 𝙰𝚗𝚘𝚗𝚢𝚖𝚘𝚞𝚜 𝙵𝚒𝚕𝚎 𝚂𝚎𝚗𝚍𝚒𝚗𝚐 𝙱𝚘𝚝 𝙲𝚛𝚎𝚊𝚝𝚎𝚍 𝙱𝚢 </b> <a href='https://t.me/Darkthrax'>𝙳𝚊𝚛𝚔𝚃𝚑𝚛𝚎𝚡</a> \n\n<b>𝚃𝚑𝚒𝚜 𝙱𝚘𝚝 𝚒𝚜 𝙲𝚛𝚎𝚊𝚝𝚎𝚍 𝙵𝚘𝚛 𝙿𝚛𝚒𝚟𝚊𝚌𝚢 𝙰𝚗𝚍 𝚂𝚎𝚌𝚞𝚛𝚒𝚝𝚢 𝚁𝚎𝚊𝚜𝚘𝚗𝚜</b> \n\n<b>𝚃𝚑𝚒𝚜 𝙱𝚘𝚝 𝚒𝚜 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚕𝚢 𝙵𝚛𝚎𝚎 𝙵𝚘𝚛 𝙴𝚟𝚎𝚛𝚢𝚘𝚗𝚎 𝚃𝚘 𝚄𝚜𝚎</b> \n\n<b>⚠️ 𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 :- @DarkThrax</b>",            disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
