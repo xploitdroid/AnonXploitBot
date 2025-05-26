@@ -1,0 +1,80 @@
+﻿{
+  "name": "Anonymous Sender 🗃️",
+  "description": "Hello Guys I am Your Secured and Anonymous file Sender, Use me only for Educational Purposes.⚠️",
+  "logo": "https://files.catbox.moe/4984t2.png",
+  "keywords": ["Anonymous Sender 🗃️", "Mongo DB"],    
+  "repository": "https://github.com/Xploitdroid/AnonXploitBot",
+  "success_url": "https://t.me/XploitBots",
+  "env": {
+      "API_ID": {
+          "description": "Your APP ID From my.telegram.org ",
+          "value": "21442811",
+          "required": true
+      },
+      "API_HASH": {
+          "description": "Your API Hash From my.telegram.org ",
+          "value": "b6e4ff464a9a82bea74f72dd70eab0a1",
+          "required": true
+      },
+      "BOT_TOKEN": {
+          "description": "Your Bot Token From @BotFather",
+          "value": "7630871464:AAHO7DbYe0TqY2lvyiajOXM_1UCfwT1Oc-I",
+          "required": true
+      },
+      "OWNER_ID": {
+        "description":"Add Your User ID here",
+        "value": "8181951014",
+        "required": true
+      },
+      "CHANNEL_ID": {
+          "description":"Make a channel (database channel), then make the bot as admin in channel, and it's id",
+          "value": "-1002515503407",
+          "required": true          
+      },
+      "FORCE_SUB_CHANNEL": {
+        "description": "id of the channel or group, if you want enable force sub feature else put 0",
+        "value": "0",
+        "required": false
+      },
+      "DB_URL": {
+          "description": "Your Mongo DB Database URL",
+          "value": "mongodb+srv://AnonXploit:AnonXploit@cluster0.ekhbgxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+          "required": true
+      },
+      "DB_NAME":{ 
+          "description":"Your Mongo DB Database Name",
+          "value": "AnonXploit",
+          "required": false
+      },
+      "START_MESSAGE": {
+        "description": "Optional: start message of bot, use HTML parsemode format",
+        "value": "Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.",
+        "required": false
+      },
+      "FORCE_SUB_MESSAGE": {
+        "description": "Optional: Force Sub message of bot, use HTML parsemode format",
+        "value": "Hello {mention}\n\n<b>You Need To Join In My Channel To Use Me\n\nKindly Please Join Channel</b>",
+        "required": false
+      },
+      "ADMINS": {
+        "description": "A space separated list of user_ids of Admins, they can only create links",
+        "value": "",
+        "required": false
+      },
+      "PROTECT_CONTENT": {
+        "description": "Protect contents from getting forwarded",
+        "value": "False",
+        "required": false
+      },
+      "FILE_AUTO_DELETE": {
+        "description": "auto delete in seconds",
+        "value": "600",
+        "required": true
+      }
+  },
+  "buildpacks": [
+      {
+          "url": "heroku/python"
+      }
+  ]
+}
