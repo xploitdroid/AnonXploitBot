@@ -1,4 +1,4 @@
-<img src="https://files.catbox.moe/4984t2.png" alt="logo" target="/blank">
+<img src="https://files.catbox.moe/1ftf1f.png" alt="logo" target="/blank">
 
 <h1 align="center">
  <b><a href="https://t.me/XploitBots" target="/blank"> File Sharing Bot </a></>
