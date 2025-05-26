@@ -58,7 +58,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only File Share Bot !"
 
-START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.")
+START_MSG = os.environ.get("START_MESSAGE", "𝙷𝚊𝚒 {mention}\n\n𝙸 𝚊𝚖 𝚢𝚘𝚞𝚛 𝚊𝚍𝚟𝚊𝚗𝚌𝚎 𝙰𝚗𝚘𝚗𝚢𝚖𝚘𝚞𝚜 𝚏𝚒𝚕𝚎 𝚂𝚎𝚗𝚍𝚎𝚛 𝙱𝚘𝚝 ❤️/n𝙸𝚏 𝚈𝚘𝚞𝚛 𝚞𝚜𝚒𝚗𝚐 𝚖𝚎 𝚝𝚑𝚊𝚗 𝚒 𝚠𝚒𝚕𝚕 𝙵𝚘𝚛𝚠𝚊𝚛𝚍 𝚢𝚘𝚞𝚛 𝚏𝚒𝚕𝚎𝚜 𝙴𝚊𝚜𝚒𝚕𝚢 𝚊𝚗𝚍 𝙰𝚗𝚘𝚗𝚢𝚖𝚘𝚞𝚜𝚕𝚢 ☠\n𝙱𝚘𝚝 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 :- @𝙳𝚊𝚛𝚔𝚃𝚑𝚛𝚎𝚡.")
 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need To Join In My Channel/Group To Use Me\n\nKindly Please Join Channel</b>")
 
