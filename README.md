@@ -1,7 +1,7 @@
 <img src="https://files.catbox.moe/1ftf1f.png" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://t.me/XploitBots" target="/blank"> File Sharing Bot </a></>
+ <b><a href="https://t.me/XploitBots" target="/blank"> Anonymous File Sender 🗃️ </a></>
 </h1>
 
 <p align="center">🩵 Thanks for Being Here 🩵</p>
