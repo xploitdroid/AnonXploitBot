@@ -67,33 +67,6 @@
 - Deploy to Koyeb + Heroku + Railway.
 - Developer Service 24x7.
 
-
-
-### SETUP
-
-- Add the bot to Database Channel with all permission
-- Add bot to ForceSub channel as Admin with Invite Users via Link Permission if you enabled ForceSub
-
-
-### FILLINGS
-#### START_MESSAGE | FORCE_SUB_MESSAGE
-
-* `{first}` - User first name
-* `{last}` - User last name
-* `{id}` - User ID
-* `{mention}` - Mention the user
-* `{username}` - Username
-
-#### CUSTOM_CAPTION
-
-* `{filename}` - file name of the Document
-* `{previouscaption}` - Original Caption
-
-#### CUSTOM_STATS
-
-* `{uptime}` - Bot Uptime
-
-
 ### ALL COMMANDS
 
 ```
